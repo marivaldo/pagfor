@@ -1,6 +1,7 @@
 # Pagfor
 
-TODO: Write a gem description
+Implementação do Layout PAG-FOR Bradesco para pagamento de Fornecedores.
+Com base na documentação MP_4008-0096-00, Data: 06/08/2010
 
 ## Installation
 
