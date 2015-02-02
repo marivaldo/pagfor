@@ -16,7 +16,7 @@ module Pagfor::V500
     lstring :favorecido_agencia,         :length => 5, :pad_byte => '0'
     lstring :favorecido_agencia_dv,      :length => 1, :pad_byte => ' '
     lstring :favorecido_conta,           :length => 13, :pad_byte => '0'
-    string :favorecido_conta_dv,         :length => 2, :pad_byte => ' '
+    lstring :favorecido_conta_dv,        :length => 2, :pad_byte => ' '
 
     lstring :numero_pagamento,           :length => 16, :pad_byte => ' '
     lstring :carteira,                   :length => 3, :initial_value => '0', :pad_byte => '0'
