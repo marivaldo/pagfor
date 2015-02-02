@@ -71,11 +71,11 @@ module Pagfor::V500
 
     string :tipo_conta_favorecido,       :length => 1, :initial_value => '1', :pad_byte => '0'
 
-    string :conta_complementar,          :length => 7, :initial_value => '0', :pad_byte => '0'
+    lstring :conta_complementar,         :length => 7, :initial_value => '0', :pad_byte => ' '
 
     string :reserva_5,                   :length => 8, :pad_byte => ' '
 
-    lstring :sequencial,                  :length => 6, :pad_byte => '0'
+    lstring :sequencial,                 :length => 6, :pad_byte => '0'
 
   end
 end
